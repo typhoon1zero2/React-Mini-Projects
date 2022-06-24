@@ -1,9 +1,7 @@
-import './App.css';
+import React, { useState } from 'react';
 
 function App() {
-  return (
-  <h1>Testing</h1>
-  );
+  return <h2>reminder project setup</h2>;
 }
 
 export default App;

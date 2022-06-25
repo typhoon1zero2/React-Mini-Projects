@@ -1,9 +1,16 @@
 import { React,  useState, useEffect } from "react";
+import Loading from "./pages/Loading";
+import Tours from "./pages/Tours";
 
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
 const url = 'https://course-api.com/react-tours-project'
+
+
 function App() {
+  const [ loading, setLoading ] = useState(true);
+  const [ tours, setTours ] = useState(null);
+
   return <h2>Tours Project Setup</h2>
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import List from './List';
-import Alert from './Alert';
+import List from './component/lists';
+import Alert from './component/alerts';
 const getLocalStorage = () => {
   let list = localStorage.getItem('list');
   if (list) {

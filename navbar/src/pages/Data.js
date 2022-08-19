@@ -43,7 +43,7 @@ export const social = [
     id: 3,
     url: 'https://www.twitter.com',
     icon: <FaLinkedin />,
-  },S
+  },
   {
     id: 4,
     url: 'https://www.twitter.com',

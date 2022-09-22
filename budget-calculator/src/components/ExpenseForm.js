@@ -1,2 +1,9 @@
-import React from "react";
-import { MdSend } from "react-icons/md";
+import React from 'react'
+
+export default function ExpenseForm() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
